@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/cat_background1.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/cat_background2.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/cat_background3.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/cat_background4.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/green_button_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/light_green_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/orange_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/red_button_background.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/sample_mainfood.xml" value="0.2490740740740741" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/search_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/drawable/view_category.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_basket.xml" value="0.33" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_drinks.xml" value="0.1875" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_filter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_fruits.xml" value="0.2015625" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_fruitsbuy.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_question.xml" value="0.33" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_settings.xml" value="0.33" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_start.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_temp.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_vegetables.xml" value="0.1875" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/activity_vitamins.xml" value="0.1875" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/my_raw.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/sample_basket.xml" value="0.25" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/sample_mainfood.xml" value="0.5" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/sample_searchfood.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/tamad/AndroidStudioProjects/FoodOrder/app/src/main/res/layout/view_category.xml" value="0.2722222222222222" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
