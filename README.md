@@ -27,21 +27,21 @@ You can scroll it left and right, but you will only find 4 categories so far.<br
 There is a <b>bottom navigation menu</b> that you can <b>access anywhere</b> within the app - you won't get lost believe me :) <br>
 
 <p align="center">
-In the profile menu, you can edit your personal information. you can also access your profile by clicking the profile icon in the upper right corner
+ In the profile menu, you can <b>edit your personal information</b>. You can also access your profile by clicking the profile icon in the upper right corner on the main page.
 <br><br>
 <img src ="https://user-images.githubusercontent.com/60942087/142600714-15d88188-e913-43b3-9a7d-43d3d5e0389e.png", width="230px",height="250px">
  </p>
 <p align="center">
-In the history activity, you can see your previous orders stored, for which the application uses a database. <br><br>
+ In the history activity, you can see your <b>previous orders stored</b>, for which the application uses a database. <br><br>
 <img src="https://user-images.githubusercontent.com/60942087/142600818-11d05d4e-f152-4472-bfe4-15a9cb3d0de9.png", width="230px",height="250px">
 </p>                                                                                                                                             
 <p align="center">
-At the right side of the navigation window, you can manage your balance. <br><br>
+ At the right side of the navigation window, you can <b>manage your balance</b>. <br><br>
 <img src="https://user-images.githubusercontent.com/60942087/142600886-91cf85dd-ded5-43f5-8b3a-77e78b0ace7c.png", width="230px",height="250px">
 </p>
 <p align="center">
 When you want to order your food, you can simply click on the basket icon at the center of the navigation window. <br>
-You will see a summary of what you want to order, and if you want to remove some item, you can do it here as well! <br><br>
+ You will see a <b>summary</b> of what you want to order, and if you want to remove some item, you can do it here as well! <br><br>
 <img src="https://user-images.githubusercontent.com/60942087/142600634-7cab0cd8-ca08-45bf-a962-ce56ab6cbd35.png", width="230px",height="250px">
 </p>
 
