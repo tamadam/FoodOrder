@@ -115,7 +115,7 @@
                         android:id="@+id/textView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="FAQ"
+                        android:text="History"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />

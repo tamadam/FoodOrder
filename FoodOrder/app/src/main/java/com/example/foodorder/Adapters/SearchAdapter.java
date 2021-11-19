@@ -42,7 +42,8 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.SearchAdap
         FruitsModel current = myItems.get(position);
         holder.imageViewSearch.setImageResource(current.getImage());
         holder.textViewSearch.setText(current.getName());
-        holder.textViewSearch2.setText(current.getPrice());
+        holder.textViewSearch2.setText(current.getPrice() + " Ft");
+
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,6 +79,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.SearchAdap
             imageViewSearch = itemView.findViewById(R.id.imageViewSearch);
             textViewSearch = itemView.findViewById(R.id.textViewSearch);
             textViewSearch2 = itemView.findViewById(R.id.textViewSearch2);
+
         }
     }
 

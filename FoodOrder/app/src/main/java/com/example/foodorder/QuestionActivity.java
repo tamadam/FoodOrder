@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -26,6 +27,7 @@ public class QuestionActivity extends AppCompatActivity {
     LinearLayout questionButton;
     LinearLayout settingsButton;
     FloatingActionButton goToBasketButton;
+    ImageView noDataImage;
 
 
     RecyclerView recyclerView;
@@ -46,6 +48,7 @@ public class QuestionActivity extends AppCompatActivity {
         questionButton = findViewById(R.id.questionButton);
         settingsButton = findViewById(R.id.settingsButton);
         goToBasketButton = findViewById(R.id.goToBasketButton);
+        noDataImage = findViewById(R.id.noDataImage);
 
 
         recyclerView = findViewById(R.id.recyclerView);
@@ -120,11 +123,13 @@ public class QuestionActivity extends AppCompatActivity {
     void storeDataInArray(){
         Cursor cursor = myDB.readAllData();
         if(cursor.getCount() == 0){
+            noDataImage.setVisibility(View.VISIBLE);
             Toast.makeText(this, "No data", Toast.LENGTH_SHORT).show();
         }else{
             while(cursor.moveToNext()){
+                noDataImage.setVisibility(View.GONE);
                 food_quantity.add(cursor.getString(1));
-                food_prize.add(cursor.getString(2));
+                food_prize.add(cursor.getString(2) + " Ft");
             }
         }
     }
