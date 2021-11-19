@@ -24,6 +24,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -103,6 +104,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:clickable="true"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -126,6 +128,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.2"
+                    android:background="@drawable/gray_background"
                     android:clickable="true"
                     android:orientation="vertical">
 
@@ -139,7 +142,7 @@
                         android:id="@+id/textView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Settings"
+                        android:text="Balance"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />

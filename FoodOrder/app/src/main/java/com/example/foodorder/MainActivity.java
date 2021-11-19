@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements MyReAdapter.onNot
 
 
 
-        currentBalance.setText("Current balance " + currentMoney + " HUF");
+        currentBalance.setText(currentMoney + " HUF");
 
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity implements MyReAdapter.onNot
     @Override
     public void onResume() {
         super.onResume();
-        currentBalance.setText("Current balance " + currentMoney + " HUF");
+        currentBalance.setText(currentMoney + " HUF");
         settings = getSharedPreferences(SAVE, 0);
         currentMoney = settings.getInt(STATE_KEY_PASSWORD, 2000);
 

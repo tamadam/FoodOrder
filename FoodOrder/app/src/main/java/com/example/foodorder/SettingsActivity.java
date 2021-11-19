@@ -1,15 +1,19 @@
 package com.example.foodorder;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class SettingsActivity extends AppCompatActivity {
 
@@ -18,6 +22,12 @@ public class SettingsActivity extends AppCompatActivity {
     TextView finishButton;
     EditText moneyEditText;
     TextView newBalance;
+
+    LinearLayout homeButton;
+    LinearLayout profileButton;
+    LinearLayout questionButton;
+    LinearLayout settingsButton;
+    FloatingActionButton goToBasketButton;
 
     int counter = 0;
 
@@ -34,6 +44,12 @@ public class SettingsActivity extends AppCompatActivity {
         newBalance = findViewById(R.id.newBalance);
         newBalance.setText("New balance: " + MainActivity.currentMoney + " Ft");
 
+        homeButton = findViewById(R.id.homeButton);
+        profileButton = findViewById(R.id.profileButton);
+        questionButton = findViewById(R.id.questionButton);
+        settingsButton = findViewById(R.id.settingsButton);
+        goToBasketButton = findViewById(R.id.goToBasketButton);
+
 
         moneyEditText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
@@ -46,6 +62,45 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
 
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SettingsActivity.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SettingsActivity.this,ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+        questionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SettingsActivity.this,QuestionActivity.class);
+                startActivity(intent);
+            }
+        });
+/*
+        settingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SettingsActivity.this,SettingsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+ */
+
+        goToBasketButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SettingsActivity.this, BasketActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         addMoney.setOnClickListener(new View.OnClickListener() {
