@@ -47,6 +47,7 @@ When you want to order your food, you can simply click on the basket icon at the
  You will see a <b>summary</b> of what you want to order, and if you want to remove some item, you can do it here as well! <br><br>
 <img src="https://user-images.githubusercontent.com/60942087/142600634-7cab0cd8-ca08-45bf-a962-ce56ab6cbd35.png", width="230px",height="250px">
 </p>
+<br>
 
 
 
