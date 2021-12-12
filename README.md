@@ -4,11 +4,14 @@ The basis of the application was to motivate you to eat as healthy as possible. 
 You can find here only healthy foods, drinks and vitamins. No hamburgers, pizzas and others. 
 
 
-This is how the app welcomes you when you launch it <br>
+This is how the app welcomes you when you launch it. 
+The application uses google sign in API for authentication.<br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/60942087/142595878-e6772121-ecb6-437f-be93-d852cf353fa3.png", width="250px",height="250px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/60942087/142595695-d904e0d7-01d9-45db-82ba-29b58ca73f7b.png", width="250px",height="250px">
+<img src="https://user-images.githubusercontent.com/60942087/145725823-956b32ba-f56e-4883-89b1-8069469c7fbd.png", width="250px",height="250px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://user-images.githubusercontent.com/60942087/145725888-0d9f36b4-3bb4-4c01-9896-12537a1e0a7d.png", width="250px",height="250px">
 </p>
 <p align="center">
 There is a search bar where <b>you can search specifically</b> for what you want to eat. <br><br>
@@ -29,7 +32,7 @@ There is a <b>bottom navigation menu</b> that you can <b>access anywhere</b> wit
 <p align="center">
  In the profile menu, you can <b>edit your personal information</b>. You can also access your profile by clicking the profile icon in the upper right corner on the main page.
 <br><br>
-<img src ="https://user-images.githubusercontent.com/60942087/142600714-15d88188-e913-43b3-9a7d-43d3d5e0389e.png", width="230px",height="250px">
+<img src ="https://user-images.githubusercontent.com/60942087/145726102-dfa9cf07-44d5-4bc8-83da-2b7a08185f6c.png", width="230px",height="250px">
  </p>
 <p align="center">
  In the history activity, you can see your <b>previous orders stored</b>, for which the application uses a database. <br><br>
