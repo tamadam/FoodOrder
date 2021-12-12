@@ -58,9 +58,8 @@
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="15dp"
-        android:onClick="onClick"
-        android:clickable="true"
         android:background="@drawable/red_button_background"
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">

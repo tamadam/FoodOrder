@@ -49,7 +49,7 @@ public class Fruits extends AppCompatActivity{
         list.add(new FruitsModel(R.drawable.melon, "Melon","250","Sárgadinnye","1"));
         list.add(new FruitsModel(R.drawable.watermelon, "Watermelon","400","Görögdinnye","1"));
         list.add(new FruitsModel(R.drawable.orange, "Orange","119","Narancs","1"));
-        list.add(new FruitsModel(R.drawable.ananasz, "Ananasz","600","Ananasz","1"));
+        list.add(new FruitsModel(R.drawable.ananasz, "Pineapple","600","Ananasz","1"));
 
 
 

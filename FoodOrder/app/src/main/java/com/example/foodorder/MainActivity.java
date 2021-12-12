@@ -12,11 +12,16 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -32,7 +37,8 @@ public class MainActivity extends AppCompatActivity implements MyReAdapter.onNot
     public final static String STATE_KEY_PASSWORD = "com.example.screenlocker.password";
     public final static String SAVE = "text.android.app";
 
-
+    //Button signout;
+    ImageView imageViewSignOut;
 
     TextView motivateTextView;
     TextView quoteTextView;
@@ -66,6 +72,25 @@ public class MainActivity extends AppCompatActivity implements MyReAdapter.onNot
         recyclerView = findViewById(R.id.recyclerView);
         goToBasketButton = findViewById(R.id.goToBasketButton);
         currentBalance = findViewById(R.id.currentBalance);
+        //signout = findViewById(R.id.signout);
+        imageViewSignOut = findViewById(R.id.imageViewSignOut);
+
+        GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+
+        GoogleSignInClient googleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions);
+        GoogleSignInAccount googleSignInAccount = GoogleSignIn.getLastSignedInAccount(this);
+
+
+        imageViewSignOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                googleSignInClient.signOut();
+                startActivity(new Intent(MainActivity.this, StartActivity.class));
+                finish();
+            }
+        });
 /*
         if (savedInstanceState!=null){
             currentMoney = Integer.parseInt(savedInstanceState.getString(STATE_KEY_PASSWORD));
