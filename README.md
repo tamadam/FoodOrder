@@ -8,9 +8,9 @@ This is how the app welcomes you when you launch it.
 The application uses google sign in API for authentication.<br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/60942087/142595878-e6772121-ecb6-437f-be93-d852cf353fa3.png", width="250px",height="250px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://user-images.githubusercontent.com/60942087/145725823-956b32ba-f56e-4883-89b1-8069469c7fbd.png", width="250px",height="250px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://user-images.githubusercontent.com/60942087/145725888-0d9f36b4-3bb4-4c01-9896-12537a1e0a7d.png", width="250px",height="250px">
 </p>
 <p align="center">
