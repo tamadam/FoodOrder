@@ -11,7 +11,7 @@ The application uses google sign in API for authentication.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://user-images.githubusercontent.com/60942087/145725823-956b32ba-f56e-4883-89b1-8069469c7fbd.png", width="250px",height="250px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/60942087/145725888-0d9f36b4-3bb4-4c01-9896-12537a1e0a7d.png", width="250px",height="250px">
+<img src="https://user-images.githubusercontent.com/60942087/145726393-14781a67-35e5-47ff-bc60-b7a5473ffd47.png", width="250px",height="250px">
 </p>
 <p align="center">
 There is a search bar where <b>you can search specifically</b> for what you want to eat. <br><br>
